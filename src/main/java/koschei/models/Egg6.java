@@ -8,7 +8,9 @@ public class Egg6 {
 
     private Needle7 needle7;
     @Autowired
-    public void setEgg (Needle7 needle7) {this.needle7 = needle7;}
+    public void setEgg(Needle7 needle7) {
+        this.needle7 = needle7;
+    }
 
     @Override
     public String toString() {

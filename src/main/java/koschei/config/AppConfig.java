@@ -15,6 +15,8 @@ public class AppConfig {
     }
 
     @Bean
-    public Duck5 getDuck (Egg6 egg6) {return new Duck5(egg6);}
+    public Duck5 getDuck(Egg6 egg6) {
+        return new Duck5(egg6);
+    }
 
 }
